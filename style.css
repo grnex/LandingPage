@@ -1,55 +1,84 @@
+/* ================= CONFIGURAÇÃO GLOBAL ================= */
 body{
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* Define a fonte principal do site */
+
     line-height: 1.6;
+    /* Espaçamento entre linhas (melhora leitura) */
 }
 
+/* ================= HEADER ================= */
 header{
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #007BFF, #0056B3);
+    /* Fundo com gradiente azul */
+
     border-bottom: #fff solid 1.5px;
+    /* Linha branca na parte inferior */
 }
 
+/* ================= HERO (SEÇÃO PRINCIPAL) ================= */
 .hero{
-    background: linear-gradient(135deg, #007bff, #6b00b3);
-    color: #fff;
+    background: linear-gradient(135deg,#007BFF, #0056b3);
+    /* Fundo com gradiente */
+
+    color:#fff;
+    /* Texto branco */
 }
 
 .hero h2{
     font-size: 2.5rem;
+    /* Tamanho grande para o título */
 }
+
 .hero p{
     font-size: 1.2rem;
+    /* Texto um pouco maior que o padrão */
 }
 
+/* ================= RODAPÉ ================= */
 footer{
-    font-size: 0.9;
+    font-size: 0.9rem;
+    /* Texto menor no rodapé */
 }
 
-/* Cards no carroussel */
-
+/* ================= CARDS (CARROSSEL) ================= */
 .card{
     border: none;
+    /* Remove borda padrão do Bootstrap */
+
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra leve para dar profundidade */
 }
 
 .card-title{
     font-size: 1.25rem;
+    /* Tamanho do título do card */
+
     font-weight: 600;
+    /* Deixa o título mais destacado */
 }
 
 .card-text{
     font-size: 1rem;
+    /* Texto padrão do card */
 }
 
-/* Modulo carroussel */
-.carousel-linner, .carousel-item{
+/* ================= CARROSSEL ================= */
+.carousel-inner .carousel-item{
     text-align: center;
+    /* Centraliza conteúdo dentro dos slides */
 }
 
-.carousel-control-prev, .carousel-control-next{
-    color: #007bff;
+/* Botões de navegação (setas) */
+.carousel-control-prev, 
+.carousel-control-next{
+    color: #007BFF;
+    /* Cor das setas */
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #007bff;
+/* Ícones das setas */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+    background-color: #007BFF;
+    /* Fundo azul nas setas */
 }
-
